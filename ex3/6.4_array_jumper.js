@@ -1,6 +1,6 @@
 
 function avgJumper(arr){
-    let i ,j,k=0; avg1=0, avg = 0;
+    let i ,j,k=0; avg1=0, avg = 0;       // k=counter 
     let arr1=[];
     for (i=0,j=1;i<arr.length;i++,j++){
         if (arr[i] > 0){            
@@ -44,6 +44,6 @@ function bestJump(arr){
 let arr= [5,5,8,7,-1,5,8,3,6,9,-1,6];
 let arr2 = avgJumper(arr);
 console.log(arr2);
-//console.log(avgJumper(arr));
+console.log(avgJumper(arr));
 console.log('best avg :',bestAvgJump(arr2));
 console.log('best jump:',bestJump(arr));
