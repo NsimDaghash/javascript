@@ -11,15 +11,18 @@ const lettersUtils={
     }
 }
 
+tmpstr=array.join('').split("").join('').toLowerCase();
+/*
 for (i=0;i<array.length;i++){
     str = array[i].toLowerCase();
     tmpstr = tmpstr+str;
+    
     tmpstr.split(" ");
     console.log(tmpstr)
 
 }
 console.log(tmpstr);
-
+*/
 function countChars(tmpstr) {
     return tmpstr
       .split('')
