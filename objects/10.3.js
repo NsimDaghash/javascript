@@ -57,7 +57,7 @@ const data = [
   function birth(data){
       let i = 0 ;
     const result = data.map((n) => n.birthday);
-    let newarr  = [],born =[];
+    let newarr = [],born =[];
     result.forEach(function (num){        
         newarr=num.split('-'); 
         if(+newarr[2] < 1990){
